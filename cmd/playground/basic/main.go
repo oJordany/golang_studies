@@ -25,4 +25,8 @@ func main() {
 	fmt.Println(funcoes.CalculateYears(2))
 	fmt.Println(funcoes.CalculateYears(3))
 	fmt.Println(funcoes.CalculateYears(4))
+	digitable_line := "0019000009033733842904048515917890000000021269"
+	steph.Split(digitable_line, "")
+	fmt.Println(digitable_line)
+	fmt.Println(len(digitable_line))
 }
